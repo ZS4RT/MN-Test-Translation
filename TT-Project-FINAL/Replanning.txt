@@ -1,0 +1,12 @@
+Open commandWeb
+get absolute path of commandweb 
+	Ex: C:/Users/zshoaib/Documents/commandweb
+pass the path into the function the findTranslationFile
+iterate through the results of the commandweb to look for i10ns
+    if an i10n is found pass the path into convertI10n function 
+
+//return each individual path of i10ns(returning 1 path at a time) 
+
+extract the file name and APPEND THE NUMBER 2 to them
+	EX: 2CommonBaseMessages_en.ts
+pass each path as input for a readstream

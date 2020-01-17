@@ -1,0 +1,15 @@
+{
+  "name": "1-workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "convertI10n.js",
+  "scripts": {
+    "test": "electron .",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.8"
+  }
+}

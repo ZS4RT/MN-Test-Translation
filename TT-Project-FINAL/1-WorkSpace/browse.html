@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<title>
+    March Networks Test Translation
+</title>
+
+<head>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <img src="./March_Networks_logo.png" alt="March Networks Logo">
+
+
+    <button id="browsebtn" onclick="">Browse</button>
+
+    <p>
+        Click Browse and select a directory containing i10n files
+    </p>
+
+    <h1>
+        Your new file will be located in you selected directory
+    </h1>
+
+
+
+
+</body>
+
+<script>
+    const {
+        ipcRenderer
+    } = require("electron")
+
+    document.getElementById("browsebtn").addEventListener('click', () => {
+        ipcRenderer.send('browsebtn')
+
+    });
+</script>
+
+
+
+</html>

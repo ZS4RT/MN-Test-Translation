@@ -1,0 +1,29 @@
+{
+        "version": "0.2.0",
+        "configurations": [
+          {
+            "name": "1-WorkSpace",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/1-WorkSpace/converti10n.js",
+            "stopOnEntry": false,
+            "cwd": "${workspaceFolder}/1-WorkSpace/",
+            "preLaunchTask": null,
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron.cmd",
+            "args" : ["."],
+            "outputCapture": "std",
+            "runtimeArgs": [
+                "--enable-logging"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+           "sourceMaps": false, 
+           
+          }
+       
+
+
+
+        ]
+      }
