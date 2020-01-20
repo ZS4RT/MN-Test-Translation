@@ -9,7 +9,7 @@ function createWindow() {
     let win = new BrowserWindow({
         width: 1350,
         height: 600,
-        icon: './MN small logo.png',
+        icon: "./MN-small-logo.png",
         webPreferences: {
             nodeIntegration: true
         }
